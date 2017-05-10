@@ -1,1 +1,0 @@
-{"version":3,"sources":["components/_typography.scss","base/_variables.scss"],"names":[],"mappings":"AAAA,EACC,aCDe,ADEf,oBAAa,AAAb,aAAa,AACb,cAAe,CACf","file":"app.css","sourcesContent":["p {\n\tcolor: $orange;\n\tdisplay: flex;\n\tfont-size: 16px;\n}","$orange : orange;"]}

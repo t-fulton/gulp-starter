@@ -66,13 +66,6 @@ gulp.task('build', [ 'clean', 'minifyScripts', 'compileSass' ], function() {
 		.pipe(gulp.dest('dist'));
 });
 
-gulp.task('build', function(callback) {
-	runSequence( 'clean', 
-		['minifyScripts', 'compileSass'], 
-		callback
-	)
-});
-
 // Default dev mode
 gulp.task('default', ['watchFiles'])
 
